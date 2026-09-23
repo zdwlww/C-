@@ -1,0 +1,186 @@
+﻿  speechManager.cpp
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26): warning C4244:             _Ty=float
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+      D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(31,26):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\project\C++\基于STL的演讲比赛管理系统\基于STL的演讲比赛管理系统\speechManager.cpp(185,16):
+          查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numeric(42,17):
+          查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244: “参数”: 从“const _Kty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:             _Kty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+      D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,45):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\project\C++\基于STL的演讲比赛管理系统\基于STL的演讲比赛管理系统\speechManager.cpp(194,14):
+          查看对正在编译的函数 模板 实例化“std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const double,int>>>> std::multimap<double,int,std::greater<int>,std::allocator<std::pair<const double,int>>>::insert<std::pair<double,int>,0>(_Valty &&)”的引用
+          with
+          [
+              _Valty=std::pair<double,int>
+          ]
+              D:\project\C++\基于STL的演讲比赛管理系统\基于STL的演讲比赛管理系统\speechManager.cpp(194,20):
+              请参阅 "SpeechManager::speechContest" 中对 "std::multimap<double,int,std::greater<int>,std::allocator<std::pair<const double,int>>>::insert" 的第一个引用
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\map(565,22):
+          查看对正在编译的函数 模板 实例化“std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const double,int>>>> std::multimap<double,int,std::greater<int>,std::allocator<std::pair<const double,int>>>::emplace<_Ty>(_Ty &&)”的引用
+          with
+          [
+              _Ty=std::pair<double,int>
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\map(554,25):
+          查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const double,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<double,int>>(std::pair<double,int> &&)”的引用
+          with
+          [
+              _Kty=double,
+              _Ty=int,
+              _Pr=std::greater<int>,
+              _Alloc=std::allocator<std::pair<const double,int>>
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xtree(1059,30):
+          查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<std::pair<const double,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<double,int>>(std::pair<double,int> &&)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::pair<const double,int>>,
+              _Kty=double,
+              _Ty=int,
+              _Pr=std::greater<int>
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xtree(1040,24):
+          查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<std::pair<const double,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Find_upper_bound<_Kty>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<std::pair<const double,int>>,
+              _Kty=double,
+              _Ty=int,
+              _Pr=std::greater<int>,
+              _Keyty=double
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xtree(1620,17):
+          查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const std::greater<int>&,const _Keyty&,const _Kty&>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Keyty=double,
+              _Kty=double,
+              _Pr=const std::greater<int> &,
+              _Ty1=const double &,
+              _Ty2=const double &
+          ]
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244: “参数”: 从“const _Keyty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:             _Keyty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,38): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95): warning C4244: “参数”: 从“const double”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+      D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,95):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1796,58):
+          查看指向正在编译的变量模板“const bool _Debug_lt_pred_order_check_noexcept<std::greater<int> const &,double const &,double const &,1>”的引用
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,72): warning C4244: “参数”: 从“const double”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,72): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,72): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,72): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1789,72): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244: “参数”: 从“const _Kty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:             _Kty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+      D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,57):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xtree(1040,24):
+          查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<std::pair<const double,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Find_upper_bound<_Kty>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<std::pair<const double,int>>,
+              _Kty=double,
+              _Ty=int,
+              _Pr=std::greater<int>,
+              _Keyty=double
+          ]
+          D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xtree(1620,17):
+          查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const std::greater<int>&,const _Keyty&,const _Kty&>(_Pr,_Ty1,_Ty2) noexcept”的引用
+          with
+          [
+              _Keyty=double,
+              _Kty=double,
+              _Pr=const std::greater<int> &,
+              _Ty1=const double &,
+              _Ty2=const double &
+          ]
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244: “参数”: 从“const _Keyty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:             _Keyty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1797,50): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244: “参数”: 从“const _Keyty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:             _Keyty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244: “参数”: 从“const _Kty”转换到“const _Ty”，可能丢失数据
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         with
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:             _Kty=double
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         ]
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         and
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         [
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:             _Ty=int
+D:\school_software\Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(1801,13): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  
+  基于STL的演讲比赛管理系统.vcxproj -> D:\project\C++\基于STL的演讲比赛管理系统\x64\Debug\基于STL的演讲比赛管理系统.exe
