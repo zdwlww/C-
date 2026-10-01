@@ -1,0 +1,2 @@
+date:2 interval:2 stuId:1 stuName:张三 roomId:2 status:1
+date:4 interval:1 stuId:2 stuName:里斯 roomId:2 status:1
